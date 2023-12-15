@@ -1,0 +1,165 @@
+@media screen and (max-width: 600px) {
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-size: 18px;
+  }
+  .contenedor-cabecera {
+    font-family: lato, sans-serif;
+}
+.cabecera {
+  min-height: 20vh;
+  padding: 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+.contenedor-objetivo {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-objetivo {
+  display: flex;
+  flex-direction: row;
+}
+
+.objetivo {
+  padding: 60px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.imagen-promocion{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+.imagen-promocion > video{
+  width: 100%;
+  height: auto;
+}
+.contenedor-perfil {
+  font-family: lato, sans-serif;
+  min-height: 20vh;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+.perfil-carrera {
+  padding: 60px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.perfil-egreso {
+  padding: 60px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+}
+footer {
+    background-color: #0c6fa8;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.contenedor-imagen-promo{
+  height: 100px;
+  width: 75px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+.principal{
+  min-height: 20vh;
+  padding: 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(44, 213, 247);
+  color: white;
+}
+.imagen1{
+  height: 350px;
+  border-radius: 340px;
+}
+
+.form-uno{
+      padding-right:20vh ;
+  
+  padding-top: 5vh;
+
+}
+.form-dos{
+  padding-right:20vh ;
+  
+  padding-top: 5vh;
+
+}
+.texto{
+  font-family: 'Franklin Gothic Medium';
+  padding-left: 20vh;
+}
+.escribir{
+ 
+  width: 280px;
+}
+.boton-circular-2 {
+  display: inline-block;
+  background-color: #01426d; /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  border: none;
+ 
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+  width: 280px;
+}
+.img-flayer{
+  width: 100%;
+}
+.contenedor-boton{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  
+}
+.contenedor-boton > button{
+  background-color: blue;
+  border-radius: 50px;
+  height: 40px;
+}
+
+.contenedor-boton > button >a{
+  text-decoration: none;
+  color: white;
+}
+
+/* formulario */
+.container-formulario{
+padding: 5%;
+margin-left: 10%;
+margin-right:10%;
+border: 2px solid blue;
+
+}
